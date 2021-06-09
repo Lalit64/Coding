@@ -1,0 +1,6 @@
+{
+  "board": "arduino:avr:uno",
+  "sketch": "DistanceSensor/DistanceSensor.ino",
+  "programmer": "arduino:avrisp",
+  "port": "/dev/cu.usbserial-220"
+}

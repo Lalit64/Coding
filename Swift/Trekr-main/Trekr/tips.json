@@ -1,0 +1,58 @@
+[
+	{
+		"text": "Don't just learn. Create!",
+        "children": [
+            {
+                "text": "When I started learning swift I realized that just learning it is useless! So when I started creating this app I started with high hopes!"
+            }
+        ]
+	},
+	{
+		"text": "Do not code without knowing the What and Why of it!",
+        "children": [
+            {
+                "text": "It’s always good to have a bigger picture of what and why you are going to code. It makes you think: “Is this feature required? & Why is it required? If yes, is there an effective way? If no, why not? Am I the best programmer to do this? Should I consult with other team members who may have a similar requirement?"
+            }
+        ]
+	},
+	{
+		"text": "Learn to prioritize!",
+        "children": [
+            {
+                "text": "Many times you will see yourself overloaded with work. You need to study to prioritize it; i.e. which task to jump for the while & which task to focus more on, or, whether you can do tasks parallelly. It will come gradually though. This improves a lot with experience."
+            }
+        ]
+	},
+	{
+		"text": "Do not overuse the 'static' keyword!",
+        "children": [
+            {
+                "text": "There are two main problems with statics: Thread Safety – static resources are by definition not thread-safe. Code Implicity – You don’t know when a static variable is instantiated & whether or not it will be instantiated before another static variable."
+            }
+        ]
+	},
+	{
+		"text": "Always go till the last answer in Stack Overflow!",
+        "children": [
+            {
+                "text": "It happened to me many times when the top-voted answer didn’t work for me but a solution from the end worked like a champ. So, I always advise programmers to try other solutions in Stackoverflow as well, instead of only marked or top voted."
+            }
+        ]
+	},
+	{
+		"text": "Never hesitate to ask for solutions!",
+        "children": [
+            {
+                "text": "I have seen many junior programmers in organizations feel shame while they stuck in errors. In coding, most of the errors occur due to very little mistakes. So, never hesitate. I repeat never hesitate to ask for the solution to seniors. There are chances that your senior had already faced the same issue & could help you to quickly solve the issue."
+            }
+        ]
+	},
+	{
+		"text": "About this app!",
+        "children": [
+            {
+                "text": "This app was made by an elite team of amazing developers, who have made it their mission to build this amazing app. This is no mere app: this app has tells you about where everyone lives a little bit about them and most importantly, about Galileo and Coding Pro!"
+            }
+        ]
+	}
+]
