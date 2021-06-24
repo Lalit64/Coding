@@ -1,0 +1,636 @@
+
+
+
+
+
+
+
+Started logging.
+2021/06/15 17:48:09 logging to /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/inols.log
+2021/06/15 17:48:09 Initial board configuration: {"Arduino Uno" arduino:avr:uno}
+2021/06/15 17:48:09 Language server build path: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861
+2021/06/15 17:48:09 Language server build sketch root: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861/sketch
+2021/06/15 17:48:09 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/15 17:48:09 IDE --> initialize 0 [93m locked[0m
+2021/06/15 17:48:09 IDE --> initialize 0 [93m unlocked[0m
+2021/06/15 17:48:09 INIT--- initializing workbench
+2021/06/15 17:48:09 INIT--- [93m locked[0m
+2021/06/15 17:48:09     --> initialize(file:///var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot)
+2021/06/15 17:48:09 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/15 17:48:09 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml compile --fqbn arduino:avr:uno --only-compilation-database --clean --source-override /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/281064408 --build-path /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861 --format json /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot
+2021/06/15 17:48:09 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/15 17:48:09 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861"
+  },
+  "success": true
+}
+
+2021/06/15 17:48:09 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml config dump --format json
+2021/06/15 17:48:09 Arduino Data Dir ->  /Users/lalit/Library/Arduino15
+2021/06/15 17:48:09     Starting clangd: /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/bin/clangd -log=verbose --compile-commands-dir=/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861 -query-driver=/Users/lalit/Library/Arduino15/packages/**
+2021/06/15 17:48:09 logging to /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/inols-clangd.log
+2021/06/15 17:48:09 logging to /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/inols-clangd-err.log
+2021/06/15 17:48:09 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/15 17:48:09 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/15 17:48:09 INIT--- initializing workbench (done)
+2021/06/15 17:48:09 INIT--- [93m unlocked[0m
+2021/06/15 17:48:09 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/15 17:48:09 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/15 17:48:09 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/15 17:48:09 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 (file:///var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino@1 as 'cpp')
+2021/06/15 17:48:09     increasing .ino tracked files count: 1
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp@1 as 'cpp')
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/15 17:48:09 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/15 17:48:09 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/15 17:48:09 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/15 17:48:09 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/15 17:48:09 SYLD--- [93m read-locked[0m
+2021/06/15 17:48:09 --> codeAction(file:///var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:0:0)
+2021/06/15 17:48:09 SYLD--- requesting documentSymbol for file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp
+2021/06/15 17:48:09     --> codeAction(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:2:0)
+2021/06/15 17:48:09 SYLD--- [93m read-unlocked[0m
+2021/06/15 17:48:09 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/15 17:48:09 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/15 17:48:09 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 17:48:09 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 17:48:09 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 17:48:09 CLG <-- textDocument/publishDiagnostics notif15 (queued)
+2021/06/15 17:48:09 CLG <-- textDocument/publishDiagnostics notif15 [93m read-locked[0m
+2021/06/15 17:48:09 CLG <-- textDocument/publishDiagnostics notif15 (running)
+2021/06/15 17:48:09 CLG <-- textDocument/publishDiagnostics notif15 publishDiagnostics(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server618136861/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp):
+2021/06/15 17:48:09 CLG <-- textDocument/publishDiagnostics notif15 [93m read-unlocked[0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/15 17:48:09 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/15 17:48:09     <-- codeAction(0 elements)
+2021/06/15 17:48:09 <-- codeAction(0 elements)
+2021/06/15 17:48:09 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/15 17:48:09 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/15 17:48:09 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/15 17:48:09 IDE --> textDocument/didSave notif3 [93m read-locked[0m
+2021/06/15 17:48:09 --> textDocument/didSave(file:///var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/.arduinoIDE-unsaved2021515-2384-66r15o.oonf/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino)
+2021/06/15 17:48:09 SYLD--- [93m read-locked[0m
+2021/06/15 17:48:09     --| didSave not forwarded to clangd
+2021/06/15 17:48:09 SYLD---    symbol: Function setup 45:0-45:12
+2021/06/15 17:48:09 IDE --> textDocument/didSave notif3 [93m read-unlocked[0m
+2021/06/15 17:48:09 SYLD---             > void setup()
+2021/06/15 17:48:09 SYLD---    symbol: Function loop 47:0-47:11
+2021/06/15 17:48:09 SYLD---             > void loop()
+2021/06/15 17:48:09 SYLD---    symbol: Function rightMotor 49:0-49:31
+2021/06/15 17:48:09 SYLD---             > void rightMotor(int motorSpeed)
+2021/06/15 17:48:09 SYLD---    symbol: Function leftMotor 51:0-51:30
+2021/06/15 17:48:09 SYLD---             > void leftMotor(int motorSpeed)
+2021/06/15 17:48:09 SYLD---    symbol: Function getDistance 53:0-53:19
+2021/06/15 17:48:09 SYLD---             > float getDistance()
+2021/06/15 17:48:09 SYLD---    symbol: Function setup 55:0-74:1
+2021/06/15 17:48:09 SYLD---      TRIMMED> void setup()
+2021/06/15 17:48:09 SYLD---    symbol: Function loop 77:0-124:1
+2021/06/15 17:48:09 SYLD---      TRIMMED> void loop()
+2021/06/15 17:48:09 SYLD---    symbol: Function rightMotor 127:0-145:1
+2021/06/15 17:48:09 SYLD---      TRIMMED> void rightMotor(int motorSpeed)                       //function for driving the right motor
+2021/06/15 17:48:09 SYLD---    symbol: Function leftMotor 148:0-166:1
+2021/06/15 17:48:09 SYLD---      TRIMMED> void leftMotor(int motorSpeed)                        //function for driving the left motor
+2021/06/15 17:48:09 SYLD---    symbol: Function getDistance 170:0-186:1
+2021/06/15 17:48:09 SYLD---      TRIMMED> float getDistance()
+2021/06/15 17:48:09 SYLD--- [93m read-unlocked[0m
+2021/06/15 17:48:09 SYLD--- (done)
+2021/06/15 17:48:09 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/15 17:48:09 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 17:48:09 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/15 17:48:10 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/15 17:48:10 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+
+
+
+
+
+
+
+Started logging.
+2021/06/15 17:48:23 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols.log
+2021/06/15 17:48:23 Initial board configuration: {"Arduino Uno" arduino:avr:uno}
+2021/06/15 17:48:23 Language server build path: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309
+2021/06/15 17:48:23 Language server build sketch root: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch
+2021/06/15 17:48:23 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/15 17:48:23 IDE --> initialize 0 [93m locked[0m
+2021/06/15 17:48:23 IDE --> initialize 0 [93m unlocked[0m
+2021/06/15 17:48:23 INIT--- initializing workbench
+2021/06/15 17:48:23 INIT--- [93m locked[0m
+2021/06/15 17:48:23     --> initialize(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot)
+2021/06/15 17:48:23 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/15 17:48:23 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml compile --fqbn arduino:avr:uno --only-compilation-database --clean --source-override /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/472601536 --build-path /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309 --format json /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot
+2021/06/15 17:48:23 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/15 17:48:23 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309"
+  },
+  "success": true
+}
+
+2021/06/15 17:48:23 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml config dump --format json
+2021/06/15 17:48:23 Arduino Data Dir ->  /Users/lalit/Library/Arduino15
+2021/06/15 17:48:23     Starting clangd: /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/bin/clangd -log=verbose --compile-commands-dir=/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309 -query-driver=/Users/lalit/Library/Arduino15/packages/**
+2021/06/15 17:48:23 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols-clangd.log
+2021/06/15 17:48:23 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols-clangd-err.log
+2021/06/15 17:48:23 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/15 17:48:23 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/15 17:48:23 INIT--- initializing workbench (done)
+2021/06/15 17:48:23 INIT--- [93m unlocked[0m
+2021/06/15 17:48:23 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/15 17:48:23 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/15 17:48:23 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/15 17:48:23 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 (file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino@1 as 'cpp')
+2021/06/15 17:48:23     increasing .ino tracked files count: 1
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp@1 as 'cpp')
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/15 17:48:23 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/15 17:48:23 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/15 17:48:23 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/15 17:48:23 SYLD--- [93m read-locked[0m
+2021/06/15 17:48:23 SYLD--- requesting documentSymbol for file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp
+2021/06/15 17:48:23 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/15 17:48:23 SYLD--- [93m read-unlocked[0m
+2021/06/15 17:48:23 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/15 17:48:23 --> codeAction(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:0:0)
+2021/06/15 17:48:23     --> codeAction(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:2:0)
+2021/06/15 17:48:23 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/15 17:48:23 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 17:48:23 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/15 17:48:23 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 17:48:23 CLG <-- textDocument/publishDiagnostics notif17 (queued)
+2021/06/15 17:48:23 CLG <-- textDocument/publishDiagnostics notif17 [93m read-locked[0m
+2021/06/15 17:48:23 CLG <-- textDocument/publishDiagnostics notif17 (running)
+2021/06/15 17:48:23 CLG <-- textDocument/publishDiagnostics notif17 publishDiagnostics(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp):
+2021/06/15 17:48:23 CLG <-- textDocument/publishDiagnostics notif17 [93m read-unlocked[0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/15 17:48:23 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/15 17:48:23     <-- codeAction(0 elements)
+2021/06/15 17:48:23 <-- codeAction(0 elements)
+2021/06/15 17:48:23 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/15 17:48:23 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/15 17:48:23 SYLD--- [93m read-locked[0m
+2021/06/15 17:48:23 SYLD---    symbol: Function setup 45:0-45:12
+2021/06/15 17:48:23 SYLD---             > void setup()
+2021/06/15 17:48:23 SYLD---    symbol: Function loop 47:0-47:11
+2021/06/15 17:48:23 SYLD---             > void loop()
+2021/06/15 17:48:23 SYLD---    symbol: Function rightMotor 49:0-49:31
+2021/06/15 17:48:23 SYLD---             > void rightMotor(int motorSpeed)
+2021/06/15 17:48:23 SYLD---    symbol: Function leftMotor 51:0-51:30
+2021/06/15 17:48:23 SYLD---             > void leftMotor(int motorSpeed)
+2021/06/15 17:48:23 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/15 17:48:23 SYLD---    symbol: Function getDistance 53:0-53:19
+2021/06/15 17:48:23 SYLD---             > float getDistance()
+2021/06/15 17:48:23 SYLD---    symbol: Function setup 55:0-74:1
+2021/06/15 17:48:23 SYLD---      TRIMMED> void setup()
+2021/06/15 17:48:23 SYLD---    symbol: Function loop 77:0-124:1
+2021/06/15 17:48:23 SYLD---      TRIMMED> void loop()
+2021/06/15 17:48:23 SYLD---    symbol: Function rightMotor 127:0-145:1
+2021/06/15 17:48:23 SYLD---      TRIMMED> void rightMotor(int motorSpeed)                       //function for driving the right motor
+2021/06/15 17:48:23 SYLD---    symbol: Function leftMotor 148:0-166:1
+2021/06/15 17:48:23 SYLD---      TRIMMED> void leftMotor(int motorSpeed)                        //function for driving the left motor
+2021/06/15 17:48:23 SYLD---    symbol: Function getDistance 170:0-186:1
+2021/06/15 17:48:23 SYLD---      TRIMMED> float getDistance()
+2021/06/15 17:48:23 SYLD--- [93m read-unlocked[0m
+2021/06/15 17:48:23 SYLD--- (done)
+2021/06/15 17:48:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 17:48:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/15 17:48:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/15 17:48:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/15 17:48:48 [92mIDE --> LS     CL: REQUEST textDocument/hover 2: [0m
+2021/06/15 17:48:48 IDE --> textDocument/hover 2 [93m read-locked[0m
+2021/06/15 17:48:48 --> hover(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:5:73)
+2021/06/15 17:48:48     --> hover(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:7:73)
+2021/06/15 17:48:48 IDE --> textDocument/hover 2 sent to Clang
+2021/06/15 17:48:48 [91mIDE     LS --> CL: REQUEST textDocument/hover 3: [0m
+2021/06/15 17:48:48 [92mIDE     LS <-- CL: ANSWER textDocument/hover 3 (3): [0m
+2021/06/15 17:48:48 IDE --> textDocument/hover 2 [93m read-unlocked[0m
+2021/06/15 17:48:48 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/15 17:48:49 [92mIDE --> LS     CL: REQUEST textDocument/hover 3: [0m
+2021/06/15 17:48:49 IDE --> textDocument/hover 3 [93m read-locked[0m
+2021/06/15 17:48:49 --> hover(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:4:77)
+2021/06/15 17:48:49     --> hover(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:6:77)
+2021/06/15 17:48:49 IDE --> textDocument/hover 3 sent to Clang
+2021/06/15 17:48:49 [91mIDE     LS --> CL: REQUEST textDocument/hover 4: [0m
+2021/06/15 17:48:49 [92mIDE     LS <-- CL: ANSWER textDocument/hover 4 (4): [0m
+2021/06/15 17:48:49 IDE --> textDocument/hover 3 [93m read-unlocked[0m
+2021/06/15 17:48:49 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/15 17:48:51 [92mIDE --> LS     CL: REQUEST textDocument/hover 4: [0m
+2021/06/15 17:48:51 IDE --> textDocument/hover 4 [93m read-locked[0m
+2021/06/15 17:48:51 --> hover(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:4:77)
+2021/06/15 17:48:51     --> hover(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server401222309/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:6:77)
+2021/06/15 17:48:51 IDE --> textDocument/hover 4 sent to Clang
+2021/06/15 17:48:51 [91mIDE     LS --> CL: REQUEST textDocument/hover 5: [0m
+2021/06/15 17:48:51 [92mIDE     LS <-- CL: ANSWER textDocument/hover 5 (5): [0m
+2021/06/15 17:48:51 IDE --> textDocument/hover 4 [93m read-unlocked[0m
+2021/06/15 17:48:51 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/15 17:51:11 [92mIDE --> LS     CL: REQUEST shutdown 5: [0m
+2021/06/15 17:51:11 IDE --> shutdown 5 [93m read-locked[0m
+2021/06/15 17:51:11 IDE --> shutdown 5 sent to Clang
+2021/06/15 17:51:11 [91mIDE     LS --> CL: REQUEST shutdown 6: [0m
+2021/06/15 17:51:11 [92mIDE     LS <-- CL: ANSWER shutdown 6 (6): [0m
+2021/06/15 17:51:11 IDE --> shutdown 5 [93m read-unlocked[0m
+2021/06/15 17:51:11 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/15 17:51:11 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/15 17:51:11 IDE --> exit notif3 [93m read-locked[0m
+2021/06/15 17:51:11 IDE --> exit notif3 sent to Clang
+2021/06/15 17:51:11 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/15 17:51:11 IDE --> exit notif3 [93m read-unlocked[0m
+2021/06/15 17:51:11 Lost connection with clangd!
+2021/06/15 17:51:11 removing buildpath
+
+
+
+
+
+
+
+Started logging.
+2021/06/22 17:31:40 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols.log
+2021/06/22 17:31:40 Initial board configuration: {"Arduino Uno" arduino:avr:uno}
+2021/06/22 17:31:40 Language server build path: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840
+2021/06/22 17:31:40 Language server build sketch root: /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840/sketch
+2021/06/22 17:31:40 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/22 17:31:40 IDE --> initialize 0 [93m locked[0m
+2021/06/22 17:31:40 IDE --> initialize 0 [93m unlocked[0m
+2021/06/22 17:31:40 INIT--- initializing workbench
+2021/06/22 17:31:40 INIT--- [93m locked[0m
+2021/06/22 17:31:40 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/22 17:31:40     --> initialize(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot)
+2021/06/22 17:31:40 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml compile --fqbn arduino:avr:uno --only-compilation-database --clean --source-override /var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/076944583 --build-path /private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840 --format json /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot
+2021/06/22 17:31:40 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/22 17:31:41 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840"
+  },
+  "success": true
+}
+
+2021/06/22 17:31:41 running:  /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/arduino-cli --config-file /Users/lalit/.arduinoIDE/arduino-cli.yaml config dump --format json
+2021/06/22 17:31:41 Arduino Data Dir ->  /Users/lalit/Library/Arduino15
+2021/06/22 17:31:41     Starting clangd: /Applications/Arduino IDE.app/Contents/Resources/app/node_modules/arduino-ide-extension/build/bin/clangd -log=verbose --compile-commands-dir=/private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840 -query-driver=/Users/lalit/Library/Arduino15/packages/**
+2021/06/22 17:31:41 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols-clangd.log
+2021/06/22 17:31:41 logging to /Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/inols-clangd-err.log
+2021/06/22 17:31:41 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/22 17:31:41 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/22 17:31:41 INIT--- initializing workbench (done)
+2021/06/22 17:31:41 INIT--- [93m unlocked[0m
+2021/06/22 17:31:41 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/22 17:31:41 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/22 17:31:41 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/22 17:31:41 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 (file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino@1 as 'cpp')
+2021/06/22 17:31:41     increasing .ino tracked files count: 1
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp@1 as 'cpp')
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/22 17:31:41 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/22 17:31:41 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/22 17:31:41 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/22 17:31:41 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/22 17:31:41 --> codeAction(file:///Users/lalit/Desktop/Coding/Arduino/SIK_Circuit_5C-AutonomousRobot/SIK_Circuit_5C-AutonomousRobot.ino:0:0)
+2021/06/22 17:31:41 SYLD--- [93m read-locked[0m
+2021/06/22 17:31:41     --> codeAction(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp:2:0)
+2021/06/22 17:31:41 SYLD--- requesting documentSymbol for file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp
+2021/06/22 17:31:41 SYLD--- [93m read-unlocked[0m
+2021/06/22 17:31:41 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/22 17:31:41 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/22 17:31:41 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/22 17:31:41 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/22 17:31:41 CLG <-- textDocument/publishDiagnostics notif13 (queued)
+2021/06/22 17:31:41 CLG <-- textDocument/publishDiagnostics notif13 [93m read-locked[0m
+2021/06/22 17:31:41 CLG <-- textDocument/publishDiagnostics notif13 (running)
+2021/06/22 17:31:41 CLG <-- textDocument/publishDiagnostics notif13 publishDiagnostics(file:///private/var/folders/l5/z67pqhns5cn0vz66ch5549gm0000gn/T/arduino-language-server852376840/sketch/SIK_Circuit_5C-AutonomousRobot.ino.cpp):
+2021/06/22 17:31:41 CLG <-- textDocument/publishDiagnostics notif13 [93m read-unlocked[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/22 17:31:41 SYLD--- [93m read-locked[0m
+2021/06/22 17:31:41 SYLD---    symbol: Function setup 45:0-45:12
+2021/06/22 17:31:41     <-- codeAction(0 elements)
+2021/06/22 17:31:41 SYLD---             > void setup()
+2021/06/22 17:31:41 SYLD---    symbol: Function loop 47:0-47:11
+2021/06/22 17:31:41 <-- codeAction(0 elements)
+2021/06/22 17:31:41 SYLD---             > void loop()
+2021/06/22 17:31:41 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/22 17:31:41 SYLD---    symbol: Function rightMotor 49:0-49:31
+2021/06/22 17:31:41 SYLD---             > void rightMotor(int motorSpeed)
+2021/06/22 17:31:41 SYLD---    symbol: Function leftMotor 51:0-51:30
+2021/06/22 17:31:41 SYLD---             > void leftMotor(int motorSpeed)
+2021/06/22 17:31:41 SYLD---    symbol: Function getDistance 53:0-53:19
+2021/06/22 17:31:41 SYLD---             > float getDistance()
+2021/06/22 17:31:41 SYLD---    symbol: Function setup 55:0-74:1
+2021/06/22 17:31:41 SYLD---      TRIMMED> void setup()
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/22 17:31:41 SYLD---    symbol: Function loop 77:0-124:1
+2021/06/22 17:31:41 SYLD---      TRIMMED> void loop()
+2021/06/22 17:31:41 SYLD---    symbol: Function rightMotor 127:0-145:1
+2021/06/22 17:31:41 SYLD---      TRIMMED> void rightMotor(int motorSpeed)                       //function for driving the right motor
+2021/06/22 17:31:41 SYLD---    symbol: Function leftMotor 148:0-166:1
+2021/06/22 17:31:41 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/22 17:31:41 SYLD---      TRIMMED> void leftMotor(int motorSpeed)                        //function for driving the left motor
+2021/06/22 17:31:41 SYLD---    symbol: Function getDistance 170:0-186:1
+2021/06/22 17:31:41 SYLD---      TRIMMED> float getDistance()
+2021/06/22 17:31:41 SYLD--- [93m read-unlocked[0m
+2021/06/22 17:31:41 SYLD--- (done)
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/22 17:31:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/22 17:31:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/22 17:31:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/22 17:31:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/22 17:31:52 [92mIDE --> LS     CL: REQUEST shutdown 2: [0m
+2021/06/22 17:31:52 IDE --> shutdown 2 [93m read-locked[0m
+2021/06/22 17:31:52 IDE --> shutdown 2 sent to Clang
+2021/06/22 17:31:52 [91mIDE     LS --> CL: REQUEST shutdown 3: [0m
+2021/06/22 17:31:52 [92mIDE     LS <-- CL: ANSWER shutdown 3 (3): [0m
+2021/06/22 17:31:52 IDE --> shutdown 2 [93m read-unlocked[0m
+2021/06/22 17:31:52 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/22 17:31:52 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/22 17:31:52 IDE --> exit notif3 [93m read-locked[0m
+2021/06/22 17:31:52 IDE --> exit notif3 sent to Clang
+2021/06/22 17:31:52 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/22 17:31:52 IDE --> exit notif3 [93m read-unlocked[0m
+2021/06/22 17:31:53 Lost connection with clangd!
+2021/06/22 17:31:53 removing buildpath
